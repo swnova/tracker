@@ -30,4 +30,5 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
 https://drive.google.com/file/d/1c4V2zsJxW3ZH-Hw_O24Li6j4id7Vm_Pc/view
+<img width="1009" alt="Screen Shot 2022-11-12 at 6 11 45 PM" src="https://user-images.githubusercontent.com/113868025/201502336-32b6aa92-4a6a-4d9e-a9a5-ca3ba9644e39.png">
 ![Uploading Screen Shot 2022-11-12 at 6.11.45 PM.png…]()
