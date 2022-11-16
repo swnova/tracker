@@ -81,13 +81,13 @@ async function update_employee(){
     const [employee] = await db.getAllEmployees();
     const employees = await prompt([
         {
-            name: "employeeName",
+            name: "name_first",
             message: 'which employee would you like to update?',
             type: 'list',
             choices: employee.map(({name_first, name_last, id})=>({name:name_first+' '+name_last, value:id}))
         },
         {
-            name: "new_roles",
+            name: "roles_id",
             message: "what is the new role?",
             type: 'list',
             choices: roles.map(({title, id})=>({name:title, value:id}))

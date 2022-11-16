@@ -32,12 +32,12 @@ class DbAccess {
    }
    addNewRole(role) {
     return this.connection.promise().query(
-        "INSERT INTO roles SET ? ;", role
+        "UPDATE employees SET  ? ;", role
     )
    }
    updateEmployee(employees) {
     return this.connection.promise().query(
-        "INSERT INTO employees SET ? ;", employees
+        `UPDATE employees SET roles_id= ${employees.roles_id} WHERE id=${employees.name_first}`
     )
    }
 };
